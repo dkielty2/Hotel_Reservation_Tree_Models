@@ -1,1 +1,3 @@
-read me
+This repository contains a dataset consisting of ~36K reservations (data points) and 19 features. The data set is open source and comes from the Kaggle page "Hotel Reservations Dataset" [https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset]. The features include information about the data the reservation is made, number of nights stayed, number of adults/children, room type, and the whether or not the reservation was cancelled.
+
+In the iPython notebook, we trained decision tree (DT) and gradient boosted tree (GBT) to predict whether a reservation would be cancelled or not. The models were trained using a 5-fold cross-validation on an 80/20 training/testing split. For both the DT and GBT models we use GridSearchCV to perform the cross-validation and hyperparameter tuning.
