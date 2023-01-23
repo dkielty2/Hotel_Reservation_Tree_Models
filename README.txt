@@ -2,4 +2,4 @@ This repository contains a dataset consisting of ~36K reservations (data points)
 
 In hotel_cancellation_GBT.ipynb, we trained decision tree (DT) and gradient boosted tree (GBT) to predict whether a reservation would be canceled or not. The models were trained using a 5-fold cross-validation on an 80/20 training/testing split. For both the DT and GBT models we use GridSearchCV to perform the cross-validation and hyperparameter tuning.
 
-The GBT model performed slightly better than the DT model. In both cases the most important feature was the lead_time (the time from the reservation is made until the actual reservation).
+The GBT model predicted with ~90% accuracy, while the DT model predicted with ~87% accuracy. In both cases the most important feature was the lead_time (the time from the reservation is made until the actual reservation).
